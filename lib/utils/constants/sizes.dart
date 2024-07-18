@@ -1,6 +1,20 @@
 
+import 'package:flutter/material.dart';
+
 class FSizes {
   // Padding and margin sizes
+
+      // Displaty Width
+  static double displayWidth(BuildContext context) {
+    return MediaQuery.of(context).size.width;
+  }
+
+  // Display Height
+  static double displayHeight(BuildContext context) {
+    return MediaQuery.of(context).size.height;
+  }
+
+  
   static const double xs = 4.0;
   static const double sm = 8.0;
   static const double md = 16.0;

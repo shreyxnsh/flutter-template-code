@@ -39,7 +39,7 @@ class FAppTheme{
     primaryColor: FColors.primary,
     textTheme: FTextTheme.darkTextTheme,
     chipTheme: FChipTheme.darkChipTheme,
-    scaffoldBackgroundColor: FColors.black,
+    scaffoldBackgroundColor: FColors.primaryBackground,
     appBarTheme: FAppBarTheme.darkAppBarTheme,
     checkboxTheme: FCheckboxTheme.darkCheckboxTheme,
     bottomSheetTheme: FBottomSheetTheme.darkBottomSheetTheme,

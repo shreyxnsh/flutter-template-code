@@ -1,3 +1,4 @@
+import 'package:contemporarygospel/features/authentication/screens/login.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
@@ -12,11 +13,11 @@ class App extends StatelessWidget {
   Widget build(BuildContext context) {
     return GetMaterialApp(
       title: FTexts.appName,
-      themeMode: ThemeMode.system,
+      themeMode: ThemeMode.dark,
       theme: FAppTheme.lightTheme,
       darkTheme: FAppTheme.darkTheme,
       debugShowCheckedModeBanner: false,
-      // home: const OnboardingScreen(),
+      home:  const LoginScreen(),
     );
   }
 }
