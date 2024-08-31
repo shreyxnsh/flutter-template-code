@@ -1,4 +1,5 @@
-import 'package:contemporarygospel/features/authentication/screens/login.dart';
+
+import 'package:contemporarygospel/navigation_menu.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
@@ -17,7 +18,7 @@ class App extends StatelessWidget {
       theme: FAppTheme.lightTheme,
       darkTheme: FAppTheme.darkTheme,
       debugShowCheckedModeBanner: false,
-      home:  const LoginScreen(),
+      home:   NavigationMenu(),
     );
   }
 }
